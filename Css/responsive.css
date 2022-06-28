@@ -1,8 +1,11 @@
-
 /*============= Media Queries===============*/
 /* Extra large devices: 1200 > */
 
 @media (min-width: 1200px) {
+  .container {
+    margin-left: 9.375rem;
+    margin-right: 9.375rem;
+  }
   .section {
     margin-top: 10rem 0;
   }
@@ -18,7 +21,7 @@
   }
 
   nav .menu ul li a.title {
-    font: 400 1.5rem 'DM sans', sans-serif;
+    font: 400 1.125rem 'DM sans', sans-serif;
     color: var(--text-color);
   }
 
@@ -26,102 +29,119 @@
     display: none;
   }
 
-  #home {
+  .info-cont {
+ 
+    top: 5rem;
+    display: inline-block;
+  }
+
+  #home header {
+    display: flex;
+    align-items: center;
+    height: 24rem;
+  }
+
+  .info-cont h1 {
+    width: 29rem;
+    font-size: 1.87rem;
+  }
+  #home .social-midia {
+    display: none;
+  }
+
+  #home .code {
+    display: block;
+
+    font-size: 6rem;
+  }
+  #about .container {
     display: flex;
   }
- 
-#about .container{
-  display: flex;
-}
-  .aboutme img{
+  .aboutme img {
     display: block;
     width: 30rem;
   }
-  
-  
-.cards.grid {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
 
-#service {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
-}
-
-.card {
-  background: #4e2d58;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0.25rem 0.25rem 0 0;
-  text-align: center;
-}
-
-.card {
-  width: 22rem;
-  height: 30rem;
-  gap: 2rem;
-}
-
-.card i {
-  display: block;
-  margin-bottom: 1.5rem;
-  font-size: 10rem;
-}
-
-.card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.75rem;
-}
-
-/*=========================Projects=========================*/
-
-.cards .card {
-  width: 22rem;
-  height: 30rem;
-  gap: 2rem;
-}
-
-
-#projects .card i {
-  color: white;
-  font-size: 1rem;
-}
-
-#projects a {
-  display: block;
-}
-
-#projects .projct1 {
-  background: #3c5fda;
-  margin-top: 3rem;
-  display: inline-flex;
-  text-align: center;
-  gap: 1rem;
-  cursor: pointer;
-}
-
-/*======================Skills======================*/
-
-#skills {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
+  .cards.grid {
     display: flex;
-}
+    justify-content: space-between;
+    gap: 1rem;
+  }
 
-#skills .langua {
+  #service {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
+  }
 
-  font-size: 7rem;
-}
+  .card {
+    background: #4e2d58;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem 0.25rem 0 0;
+    text-align: center;
+  }
 
-#skills img{
-  width: 12rem;
-  height: 10rem;
-}
-#skills .skills2 {
-  margin-top: 2rem;
-}
+  .card {
+    width: 22rem;
+    height: 30rem;
+    gap: 2rem;
+  }
 
+  .card i {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 10rem;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /*=========================Projects=========================*/
+
+  .cards .card {
+    width: 22rem;
+    height: 30rem;
+    gap: 2rem;
+  }
+
+  #projects .card i {
+    color: white;
+    font-size: 1rem;
+  }
+
+  #projects a {
+    display: block;
+  }
+
+  #projects .projct1 {
+    background: #3c5fda;
+    margin-top: 3rem;
+    display: inline-flex;
+    text-align: center;
+    gap: 1rem;
+    cursor: pointer;
+  }
+
+  /*======================Skills======================*/
+
+  #skills {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
+    display: flex;
+  }
+
+  #skills .langua {
+    font-size: 7rem;
+  }
+
+  #skills img {
+    width: 12rem;
+    height: 10rem;
+  }
+  #skills .skills2 {
+    margin-top: 2rem;
+  }
 
   main {
     margin-top: var(--header-height);
@@ -135,7 +155,6 @@
 /*large devices: 992 > */
 
 @media (min-width: 992px) {
-
 }
 
 /*medium devices: 767 > */

@@ -183,6 +183,10 @@ nav.show .icon-close {
   );
 }
 
+.info-cont{
+  display: none;
+}
+
 #home .number {
   display: flex;
   top: 17rem;
