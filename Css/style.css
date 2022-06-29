@@ -183,7 +183,7 @@ nav.show .icon-close {
   );
 }
 
-.info-cont{
+.info-cont {
   display: none;
 }
 
@@ -201,7 +201,7 @@ nav.show .icon-close {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+ 
 }
 .code {
   font: 700 6rem 'DM sans', sans-serif;
@@ -248,6 +248,7 @@ nav.show .icon-close {
   display: flex;
   width: 13rem;
   border: none;
+  margin-top: 2rem;
   height: 3rem;
   background: #3c5fda;
   border-radius: 4px;
@@ -260,13 +261,13 @@ nav.show .icon-close {
   color: var(--text-color);
 }
 
-.aboutme img{
+.aboutme img {
   display: none;
 }
 /*=========================Services=========================*/
 
 .cards.grid {
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 #service {
@@ -274,7 +275,8 @@ nav.show .icon-close {
     linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
 }
 
-.card {
+.card{
+
   background: #4e2d58;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0.25rem 0.25rem 0 0;
@@ -306,14 +308,16 @@ nav.show .icon-close {
   display: block;
 }
 
-#projects .projct1 {
-  background: #3c5fda;
-  margin-top: 3rem;
-  display: inline-flex;
-  text-align: center;
-  gap: 5rem;
-  cursor: pointer;
+#projects button{
+  display: flex;
+  justify-content: center;
 }
+#projects .beh {
+  display: flex;
+ justify-content: center;
+ 
+}
+
 
 /*=====================Contact==========================*/
 
@@ -367,6 +371,10 @@ nav.show .icon-close {
 
 #skills .skills2 {
   margin-top: 2rem;
+}
+
+#skills img {
+  display: none;
 }
 
 /*======================Footer======================*/
