@@ -317,7 +317,99 @@ nav.show .icon-close {
  justify-content: center;
  
 }
+.buttonproject1{
+    margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#project1{
+  background: white;
+  border: none;
+  color: #1f255c;
+  border-radius: 1rem;
+width: 12rem;
+height: 4rem;
+  font: 400 1rem 'DM-sans';
+ display: flex;
 
+ align-items: center;
+cursor: pointer;
+}
+
+#project1:hover{
+  background: #1f255c;
+  color: white;
+}
+#project1 i{
+  border: none;
+  background: #1f255c;
+  margin-top: 1rem;
+  margin-right: 1rem;
+font-size: 2rem;
+}
+
+.buttonproject2{
+  margin-top: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#project2{
+background: white;
+border: none;
+color: #1f255c;
+border-radius: 1rem;
+height: 4rem;
+width: 12rem;
+font: 400 1rem 'DM-sans';
+display: flex;
+
+align-items: center;
+cursor: pointer;
+}
+
+#project2:hover{
+background: #1f255c;
+color: white;
+}
+#project2 i{
+border: none;
+background: #1f255c;
+margin-top: 1rem;
+margin-right: 1rem;
+font-size: 2rem;
+}
+
+
+.buttonproject3{
+  margin-top: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#project3{
+
+border: none;
+color: #1f255c;
+border-radius: 1rem;
+width: 12rem;
+height: 4rem;
+font: 400 1rem 'DM-sans';
+display: flex;
+
+align-items: center;
+cursor: pointer;
+}
+
+
+#project3 i{
+border: none;
+background: #1f255c;
+margin-top: 1rem;
+margin-right: 1rem;
+font-size: 2rem;
+}
 
 /*=====================Contact==========================*/
 
