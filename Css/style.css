@@ -215,7 +215,7 @@ nav.show .icon-close {
   background-clip: text;
 }
 
-.title2{
+.title2 {
   display: none;
 }
 
@@ -514,4 +514,29 @@ footer .social-midia2 {
 .back-to-top.show {
   visibility: visible;
   opacity: 1;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.info-cont1, .buttons{
+  opacity: 0;
+  visibility: hidden;
+}
+.imghome{
+ display: flex;
+ justify-content: center;
+}
+
+.form_bck img{
+display: none;
+}
+
+.form_bck{
+  display: none;
 }

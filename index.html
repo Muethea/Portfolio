@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/Css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
-    <script src="" defer></script>
+    <script src="/textauto.js" defer></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfolio</title>
 </head>
@@ -63,10 +63,13 @@
         <section class="section " id="home">
             <div class="container grid">
    
-               <header >     
-               <div class="info-cont">
+               <header >  
+                
+                <div class="info-cont"></div>  
+                
+               <div class="info-cont1">
 
-                               <p>Ola, Sou</p>
+                <p>Ola, Sou</p>
                 <h1> 
                     Fernando dos Santos Muethea</h1>
                     <p>Frontend developer  and UI/UX Designer</p>
@@ -85,17 +88,23 @@
                     </a>
                     
                 </div>
-                <button>ler mais</button>
-                <button>Entre em contato</button>
+            
             </div>
-               <h1 class="code">
+            <div class="buttons">
+            <button>ler mais</button>
+            <button>Entre em contato</button>
+        </div>
+            <h1 class="code">
               
                 Code..</h1>
+                
                 <div class="title2">
                 <h2>Coder</h2>
             </div>
-                <div class="imghome">
+                <div class="imghome scontainer">
+                    <p>Desenvolver é <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                 <img src="/Img/html-programming-advanced-technology-web-concept.jpg" alt="" srcset="">
+        
             </div>
                </header>
 
@@ -361,7 +370,7 @@
             <div class="title"><h2>Entre em contacto</h2> </div>
             <form class="form grid" action="">
              
-                <input autofocus type="text" name="name" id="name" placeholder="Seu nome">
+                <input  type="text" name="name" id="name" placeholder="Seu nome">
 
                 <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
                 <textarea name="txt" id="areatext" cols="30" rows="10" placeholder="Mensagem"></textarea>
