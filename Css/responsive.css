@@ -183,34 +183,30 @@
     background-clip: text;
   }
   .code {
+    display: none;
+  }
+
+ .title2{
+  display: block;
+ }
+  #home h2{
+
     font: 700 6rem 'DM sans', sans-serif;
-    background: linear-gradient(
-      244.45deg,
-      #1f255c 13.31%,
-      #e5e7fc 52.82%,
-      rgba(126, 135, 220, 0) 85.2%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
   }
-  .social-midia a {
-    transition: 0.3s;
-    display: inline-block;
-  }
-  .social-midia a:hover {
-    transform: translateY(-10px);
-  }
-
-  .social-midia {
+  .imghome img{
+    opacity: .4;
+    margin-top: -18rem;
+    margin-left: -12rem;
+    margin-right: -10rem;
     display: flex;
-    justify-content: space-evenly;
+    width: 120rem;
+    height: 60rem;
+ 
   }
-
-  .social-midia i {
-    color: white;
-    font: 700 1.75rem 'Poppins', sans-serif;
+  .social-midia  {
+display: none;
   }
+ 
 
   .divider-1 {
     height: 1px;
@@ -338,7 +334,9 @@
   display: none;
 }
 .form_bck{
-  
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2rem;
   height: 40rem;
   padding: 3rem;
   background: #2f073b;
@@ -349,6 +347,7 @@
   text-align: center;
 }
 .form input{
+  color: white;
   padding: 1rem;
   border: none;
   border-bottom: 2px solid wheat;
@@ -358,6 +357,8 @@
 }
 
 .form textarea{
+  color: white;
+  resize: none;
   border: none;
     border-bottom: 2px solid wheat;
   background: none;

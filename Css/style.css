@@ -201,7 +201,6 @@ nav.show .icon-close {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
- 
 }
 .code {
   font: 700 6rem 'DM sans', sans-serif;
@@ -214,6 +213,14 @@ nav.show .icon-close {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.title2{
+  display: none;
+}
+
+.imghome img {
+  display: none;
 }
 .social-midia a {
   transition: 0.3s;
@@ -275,8 +282,7 @@ nav.show .icon-close {
     linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
 }
 
-.card{
-
+.card {
   background: #4e2d58;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0.25rem 0.25rem 0 0;
@@ -308,107 +314,103 @@ nav.show .icon-close {
   display: block;
 }
 
-#projects button{
+#projects button {
   display: flex;
   justify-content: center;
 }
 #projects .beh {
   display: flex;
- justify-content: center;
- 
+  justify-content: center;
 }
-.buttonproject1{
-    margin-top: 1rem;
+.buttonproject1 {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#project1{
+#project1 {
   background: white;
   border: none;
   color: #1f255c;
   border-radius: 1rem;
-width: 12rem;
-height: 4rem;
+  width: 12rem;
+  height: 4rem;
   font: 400 1rem 'DM-sans';
- display: flex;
+  display: flex;
 
- align-items: center;
-cursor: pointer;
+  align-items: center;
+  cursor: pointer;
 }
 
-#project1:hover{
+#project1:hover {
   background: #1f255c;
   color: white;
 }
-#project1 i{
+#project1 i {
   border: none;
   background: #1f255c;
   margin-top: 1rem;
   margin-right: 1rem;
-font-size: 2rem;
+  font-size: 2rem;
 }
 
-.buttonproject2{
+.buttonproject2 {
   margin-top: 1rem;
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#project2{
-background: white;
-border: none;
-color: #1f255c;
-border-radius: 1rem;
-height: 4rem;
-width: 12rem;
-font: 400 1rem 'DM-sans';
-display: flex;
+#project2 {
+  background: white;
+  border: none;
+  color: #1f255c;
+  border-radius: 1rem;
+  height: 4rem;
+  width: 12rem;
+  font: 400 1rem 'DM-sans';
+  display: flex;
 
-align-items: center;
-cursor: pointer;
-}
-
-#project2:hover{
-background: #1f255c;
-color: white;
-}
-#project2 i{
-border: none;
-background: #1f255c;
-margin-top: 1rem;
-margin-right: 1rem;
-font-size: 2rem;
+  align-items: center;
+  cursor: pointer;
 }
 
-
-.buttonproject3{
+#project2:hover {
+  background: #1f255c;
+  color: white;
+}
+#project2 i {
+  border: none;
+  background: #1f255c;
   margin-top: 1rem;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-#project3{
-
-border: none;
-color: #1f255c;
-border-radius: 1rem;
-width: 12rem;
-height: 4rem;
-font: 400 1rem 'DM-sans';
-display: flex;
-
-align-items: center;
-cursor: pointer;
+  margin-right: 1rem;
+  font-size: 2rem;
 }
 
+.buttonproject3 {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#project3 {
+  border: none;
+  color: #1f255c;
+  border-radius: 1rem;
+  width: 12rem;
+  height: 4rem;
+  font: 400 1rem 'DM-sans';
+  display: flex;
 
-#project3 i{
-border: none;
-background: #1f255c;
-margin-top: 1rem;
-margin-right: 1rem;
-font-size: 2rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+#project3 i {
+  border: none;
+  background: #1f255c;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
 }
 
 /*=====================Contact==========================*/
@@ -430,7 +432,7 @@ font-size: 2rem;
   color: var(--title-color);
 }
 
-form{
+form {
   display: none;
 }
 #contact #btnCont i {
@@ -460,8 +462,7 @@ form{
     linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
 }
 
-
-#skills .langua  i{
+#skills .langua i {
   font-size: 3rem;
 }
 
