@@ -430,6 +430,9 @@ font-size: 2rem;
   color: var(--title-color);
 }
 
+form{
+  display: none;
+}
 #contact #btnCont i {
   color: var(--text-color);
 }
@@ -457,7 +460,8 @@ font-size: 2rem;
     linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
 }
 
-#skills .langua {
+
+#skills .langua  i{
   font-size: 3rem;
 }
 
@@ -465,7 +469,7 @@ font-size: 2rem;
   margin-top: 2rem;
 }
 
-#skills img {
+#skills .img {
   display: none;
 }
 
