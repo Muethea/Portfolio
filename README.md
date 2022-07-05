@@ -10,7 +10,7 @@ Desenvolvimento de um portifolio para divulgar meus projectos, minha carreira e 
 - Css
 - Javascript
 # Ilustracoes
-- storyset.com/
+- https://storyset.com/
 # Icons
 - https://icomoon.io/
 - 
