@@ -9,7 +9,8 @@ Desenvolvimento de um portifolio para divulgar meus projectos, minha carreira e 
 - Html
 - Css
 - Javascript
-
+# Ilustracoes
+- storyset.com/
 # Icons
 - https://icomoon.io/
 - 
