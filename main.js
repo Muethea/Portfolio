@@ -37,8 +37,8 @@ ScrollReveal({
 })
 
 ScrollReveal().reveal(
-  `.code, .social-midia, #about h1, #about .name, #about #btnAbt, #service header, #service .card, #projects header, #projects .card, #skills header, .skills1 i, .skills2 i, #contact header, #contact a, #contact p, #footer .logo, #footer p, .social-midia2`,
-  { interval: 100 }
+  `.code, .social-midia, #about h1, #about .name, #about #btnAbt, #service header, #service .card, #projects header, #projects .card, #skills header, .skills1 i, .skills2 i, #contact header, #contact a, #contact p, #footer .logo, #footer p, .social-midia2 i`,
+  { interval: 120 }
 )
 
 /*Voltar para topo*/

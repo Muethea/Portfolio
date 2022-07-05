@@ -187,21 +187,6 @@ nav.show .icon-close {
   display: none;
 }
 
-#home .number {
-  display: flex;
-  top: 17rem;
-  left: 10rem;
-  position: absolute;
-  font: 700 2rem 'DM sans', sans-serif;
-  background: linear-gradient(
-    180deg,
-    rgba(112, 109, 109, 0.58) 2%,
-    rgba(30, 39, 52, 0) 80%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
 .code {
   font: 700 6rem 'DM sans', sans-serif;
   background: linear-gradient(
@@ -287,15 +272,14 @@ nav.show .icon-close {
 }
 
 .card {
+  border-radius: 1rem;
+  padding: 5rem 2rem;
   background: #4e2d58;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0.25rem 0.25rem 0 0;
-  text-align: center;
+text-align: center;
 }
 
-.card {
-  padding: 5rem 2rem;
-}
+
 
 .card i {
   display: block;
@@ -318,21 +302,18 @@ nav.show .icon-close {
   display: block;
 }
 
-#projects button {
+#projects button, .beh {
   display: flex;
   justify-content: center;
 }
-#projects .beh {
-  display: flex;
-  justify-content: center;
-}
-.buttonproject1 {
+
+.buttonproject1, .buttonproject2, .buttonproject3 {
   margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#project1 {
+#project1, #project2 {
   background: white;
   border: none;
   color: #1f255c;
@@ -346,7 +327,7 @@ nav.show .icon-close {
   cursor: pointer;
 }
 
-#project1:hover {
+#project1:hover, #project2:hover {
   background: #1f255c;
   color: white;
 }
@@ -358,30 +339,7 @@ nav.show .icon-close {
   font-size: 2rem;
 }
 
-.buttonproject2 {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#project2 {
-  background: white;
-  border: none;
-  color: #1f255c;
-  border-radius: 1rem;
-  width: 10rem;
-  height: 3rem;
-  font: 400 1rem 'DM-sans';
-  display: flex;
 
-  align-items: center;
-  cursor: pointer;
-}
-
-#project2:hover {
-  background: #1f255c;
-  color: white;
-}
 #project2 i {
   border: none;
   background: #1f255c;
@@ -390,12 +348,7 @@ nav.show .icon-close {
   font-size: 2rem;
 }
 
-.buttonproject3 {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 #project3 {
   border: none;
   color: #1f255c;
@@ -409,53 +362,7 @@ nav.show .icon-close {
   cursor: pointer;
 }
 
-#project3 i {
-  border: none;
-  background: #1f255c;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  font-size: 2rem;
-}
 
-/*=====================Contact==========================*/
-
-#contact i {
-  font-size: 1.3rem;
-}
-
-#contact #btnCont {
-  width: 13rem;
-  justify-content: center;
-  border: none;
-  cursor: pointer;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  background: #3c5fda;
-  border-radius: 4px;
-  color: var(--title-color);
-}
-
-form {
-  display: none;
-}
-#contact #btnCont i {
-  color: var(--text-color);
-}
-
-#contact #btnCont p {
-  color: white;
-}
-
-#contact p {
-  display: flex;
-  align-items: center;
-}
-
-#contact i {
-  margin-right: 1rem;
-  color: #3c5fda;
-}
 
 #footer {
   background: hsla(286, 72%, 14%, 1);
@@ -479,8 +386,47 @@ form {
   margin-top: 2rem;
 }
 
-#skills .img {
+
+.img1 img, .img1 a{
   display: none;
+}
+
+/*=====================Contact==========================*/
+
+#contact i {
+  font-size: 1.3rem;
+}
+
+#contact #btnCont {
+  width: 13rem;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background: #3c5fda;
+  border-radius: 4px;
+  color: var(--title-color);
+}
+
+
+#contact #btnCont i {
+  color: var(--text-color);
+}
+
+#contact #btnCont p {
+  color: white;
+}
+
+#contact p {
+  display: flex;
+  align-items: center;
+}
+
+#contact i {
+  margin-right: 1rem;
+  color: #3c5fda;
 }
 
 /*======================Footer======================*/
@@ -497,6 +443,7 @@ form {
 }
 
 footer .social-midia2 {
+  margin-top: 2rem;
   grid-auto-flow: column;
   width: fit-content;
 }

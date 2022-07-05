@@ -340,7 +340,7 @@
   .card {
     background: #4e2d58;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0.25rem 0.25rem 0 0;
+    border-radius: 1rem;
     text-align: center;
   }
 
@@ -455,21 +455,26 @@
   }
 
   #skills {
-    text-align: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
   }
 
+  .skillsgrup h2{
+    font: 700 2rem 'DM Sans', sans-serif;
+  }
+  #skills .skillsgrup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   #skills .langua i {
     font-size: 6rem;
   }
 
-  #skills .skills2 {
-    margin-top: 2rem;
-  }
-
-  .img img {
-    display: grid;
+  .img1 img {
+    width: 40rem;
+    height: 40rem;
+    display: block;
   }
 
   /*======================Footer======================*/
@@ -527,8 +532,6 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
- 
   * {
     padding: 0;
     margin: 0;
@@ -562,7 +565,7 @@
 
   body {
     color: var(--text-color);
-   background: var(--body-color);
+    background: var(--body-color);
     font: 400 1rem 'DM Sans', sans-serif;
   }
 
@@ -797,7 +800,7 @@
     width: 18rem;
     background: #4e2d58;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0.25rem 0.25rem 0 0;
+    border-radius: 1rem;
     text-align: center;
   }
 
@@ -813,7 +816,7 @@
   }
   /*=========================Projects=========================*/
 
-  #projects h2{
+  #projects h2 {
     text-align: center;
   }
   #projects .card i {
@@ -966,11 +969,9 @@
   }
 
   #skills {
-    
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
   }
-  
 
   #skills .langua {
     display: grid;
@@ -980,7 +981,6 @@
   #skills .langua i {
     font-size: 5rem;
   }
-
 
   #skills .skills2 {
     margin-top: 2rem;
@@ -995,7 +995,6 @@
   .img img {
     display: grid;
   }
-
 
   /*======================Footer======================*/
   .social-midia2 a {
@@ -1051,8 +1050,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  
   * {
     padding: 0;
     margin: 0;
@@ -1292,7 +1289,7 @@
 
   /*=========================About=========================*/
 
-  .imge a{
+  .imge a {
     display: none;
   }
 
@@ -1310,7 +1307,6 @@
     justify-content: center;
     width: 30rem;
   }
-
 
   .aboutme img {
     display: none;
