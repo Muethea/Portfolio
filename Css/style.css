@@ -67,7 +67,7 @@ main {
 
 .logo {
   color: var(--text-color);
-  font: 700 1.3rem 'Poppins', sans-serif;
+  font: 700 1rem 'Poppins', sans-serif;
 }
 
 .logo span {
@@ -145,7 +145,7 @@ nav.show .menu {
 }
 
 nav.show .menu .title {
-  font: 700 var(--title-font-size) 'Poppins', sans-serif;
+  font: 700 1.4rem 'Poppins', sans-serif;
   color: var(--text-color);
 }
 /*Toogle*/
@@ -251,6 +251,10 @@ nav.show .icon-close {
 
 /*=========================About=========================*/
 
+.imge a{
+  display: none;
+}
+
 #about #btnAbt {
   display: flex;
   width: 13rem;
@@ -296,7 +300,7 @@ nav.show .icon-close {
 .card i {
   display: block;
   margin-bottom: 1.5rem;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .card h3 {
@@ -333,8 +337,8 @@ nav.show .icon-close {
   border: none;
   color: #1f255c;
   border-radius: 1rem;
-  width: 12rem;
-  height: 4rem;
+  width: 10rem;
+  height: 3rem;
   font: 400 1rem 'DM-sans';
   display: flex;
 
@@ -365,8 +369,8 @@ nav.show .icon-close {
   border: none;
   color: #1f255c;
   border-radius: 1rem;
-  height: 4rem;
-  width: 12rem;
+  width: 10rem;
+  height: 3rem;
   font: 400 1rem 'DM-sans';
   display: flex;
 
@@ -396,8 +400,8 @@ nav.show .icon-close {
   border: none;
   color: #1f255c;
   border-radius: 1rem;
-  width: 12rem;
-  height: 4rem;
+  width: 10rem;
+  height: 3rem;
   font: 400 1rem 'DM-sans';
   display: flex;
 
@@ -462,8 +466,13 @@ form {
     linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
 }
 
+#skills .langua{
+  display: grid;
+  justify-content: center;
+}
+
 #skills .langua i {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 #skills .skills2 {
