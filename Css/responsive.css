@@ -325,42 +325,44 @@
     font: 700 2rem 'DM Sans', sans-serif;
   }
 
-  .card {
+  .card1,.card2, .card3 {
     width: 25rem;
     background: #4e2d58;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0.25rem 0.25rem 0 0;
     text-align: center;
+   
   }
 
+ 
   .cards.grid {
     gap: 1rem;
   }
 
-  .card {
+  .card1, .card2, .card3 {
     background: #4e2d58;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
     text-align: center;
   }
 
-  .card {
+  .card1, .card2, .card3 {
     padding: 5rem 2rem;
   }
 
-  .card i {
+  .card1 i, .card2 i, .card3 i {
     display: block;
     margin-bottom: 1.5rem;
     font-size: 5rem;
   }
 
-  .card h3 {
+  .card1 h3, .card2 h3, .card3 h3 {
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
   }
   /*=========================Projects=========================*/
 
-  #projects .card i {
+  #projects .card1 i {
     color: white;
     font-size: 2rem;
   }
@@ -459,7 +461,7 @@
       linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
   }
 
-  .skillsgrup h2{
+  .skillsgrup h2 {
     font: 700 2rem 'DM Sans', sans-serif;
   }
   #skills .skillsgrup {
@@ -469,6 +471,14 @@
   }
   #skills .langua i {
     font-size: 6rem;
+    transition: transform 0.2s;
+  }
+
+  #skills .langua i:hover {
+    width: 26rem;
+    transform: scale(
+      1.1
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
   .img1 img {
