@@ -1,4 +1,4 @@
-@media (min-width: 1281px) {
+@media (min-width: 1281px) and (max-width: 1920px) {
   /* CSS */
   * {
     padding: 0;
@@ -325,38 +325,46 @@
     font: 700 2rem 'DM Sans', sans-serif;
   }
 
-  .card1,.card2, .card3 {
+  .card1,
+  .card2,
+  .card3 {
     width: 25rem;
     background: #4e2d58;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0.25rem 0.25rem 0 0;
     text-align: center;
-   
   }
 
- 
   .cards.grid {
     gap: 1rem;
   }
 
-  .card1, .card2, .card3 {
+  .card1,
+  .card2,
+  .card3 {
     background: #4e2d58;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
     text-align: center;
   }
 
-  .card1, .card2, .card3 {
+  .card1,
+  .card2,
+  .card3 {
     padding: 5rem 2rem;
   }
 
-  .card1 i, .card2 i, .card3 i {
+  .card1 i,
+  .card2 i,
+  .card3 i {
     display: block;
     margin-bottom: 1.5rem;
     font-size: 5rem;
   }
 
-  .card1 h3, .card2 h3, .card3 h3 {
+  .card1 h3,
+  .card2 h3,
+  .card3 h3 {
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
   }

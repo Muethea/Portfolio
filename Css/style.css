@@ -271,7 +271,7 @@ nav.show .icon-close {
     linear-gradient(180deg, rgba(47, 7, 59, 0.83) 1.37%, #2f073b 81.19%);
 }
 
-.card {
+.card1, .card2, .card3 {
   border-radius: 1rem;
   padding: 5rem 2rem;
   background: #4e2d58;
@@ -281,19 +281,19 @@ text-align: center;
 
 
 
-.card i {
+.card1 i, .card2 i, .card3 i {
   display: block;
   margin-bottom: 1.5rem;
   font-size: 2rem;
 }
 
-.card h3 {
+.card1 h3, .card2 h3, .card3 h3 {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
 /*=========================Projects=========================*/
 
-#projects .card i {
+#projects .card1 i, #projects .card2 i, #projects .card3 i   {
   color: white;
   font-size: 2rem;
 }
